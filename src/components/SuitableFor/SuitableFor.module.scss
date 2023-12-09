@@ -1,0 +1,64 @@
+.container {
+  background-image: url("../../images/hummer.png");
+  background-size: cover;
+  display: flex;
+  color: #fff;
+  .leftSide {
+    text-align: left;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Oswald, serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 83.6px;
+    text-transform: uppercase;
+    padding: 355px 14px 355px 150px;
+    .bottomText {
+      color: #e25a3c;
+    }
+  }
+  .rightSide {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 110px 150px 110px 14px;
+    .list {
+      list-style: none;
+      padding-left: 0;
+      .listItem {
+        margin-bottom: 60px;
+        display: flex;
+        align-items: center;
+        .imageBox {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid #b44f2e;
+          background-color: #b44f2e;
+          height: 110px;
+          width: 80px;
+          margin-right: 20px;
+          box-sizing: border-box;
+        }
+        .textContainer {
+          width: 485px;
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 140%;
+          .title {
+            font-weight: 700;
+            margin-bottom: 8px;
+            line-height: 27px;
+          }
+        }
+      }
+    }
+  }
+}
