@@ -4,6 +4,8 @@ import { Timer } from "./components/Timer/Timer";
 import { AboutCourse } from "./components/AboutCourse/AboutCourse";
 import { SuitableFor } from "./components/SuitableFor/SuitableFor";
 import { CourseDescription } from "./components/CourseDescription/CourseDescription";
+import { MoreAboutCourse } from "./components/MoreAboutCourse/MoreAboutCourse";
+import { CourseProgram } from "./components/CourseProgram/CourseProgram";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <AboutCourse />
       <SuitableFor />
       <CourseDescription />
+      <MoreAboutCourse />
+      <CourseProgram />
       <Timer />
     </div>
   );

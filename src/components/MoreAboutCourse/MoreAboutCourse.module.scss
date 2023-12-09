@@ -1,0 +1,29 @@
+.container {
+  padding: 120px 150px;
+  background: #fff;
+  background: url("../../images/MoreAboutCourse.png");
+  background-size: cover;
+  color: #fff;
+  .title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    border-left: 4px solid #b44f2e;
+    padding-left: 24px;
+    text-align: left;
+    height: 92px;
+    margin-bottom: 50px;
+  }
+  .topText {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .bottomText {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
