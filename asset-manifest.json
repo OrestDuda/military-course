@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/military-course/static/css/main.4dd2602a.css",
-    "main.js": "/military-course/static/js/main.a3121bd9.js",
+    "main.css": "/military-course/static/css/main.15574ad9.css",
+    "main.js": "/military-course/static/js/main.8288b02d.js",
     "static/media/certificate2_original.png": "/military-course/static/media/certificate2_original.b73f64688e8de0ca1a3b.png",
     "static/media/certificate1_original.png": "/military-course/static/media/certificate1_original.844e169f2c0ba4ee9aff.png",
     "static/media/facebook.png": "/military-course/static/media/facebook.9655c3a12a29c85f0c24.png",
@@ -9,6 +9,7 @@
     "static/media/hummer.png": "/military-course/static/media/hummer.65c93b485e4b8cac4678.png",
     "static/media/soldier.png": "/military-course/static/media/soldier.0eb0f5ddba080203beb7.png",
     "static/media/femida.png": "/military-course/static/media/femida.0b778136386d278c22ad.png",
+    "static/media/uniform.png": "/military-course/static/media/uniform.0aba697cfff5e2ac479f.png",
     "static/media/certificates_bg.png": "/military-course/static/media/certificates_bg.f621dd9f49c00e996fef.png",
     "static/media/soldiers.png": "/military-course/static/media/soldiers.141414ad5bd91985d8f4.png",
     "static/media/MoreAboutCourse.png": "/military-course/static/media/MoreAboutCourse.14ab98f76160eb389698.png",
@@ -17,18 +18,21 @@
     "static/media/forStudents.svg": "/military-course/static/media/forStudents.c8e7e85a2ee8be63e677d1615c253e1f.svg",
     "static/media/forFamily.svg": "/military-course/static/media/forFamily.a23ebe416780e6b32fc6f298640c28b7.svg",
     "static/media/forMan.svg": "/military-course/static/media/forMan.714d4b8bd23d970daa66968bfeda5d46.svg",
+    "static/media/viberFooter.svg": "/military-course/static/media/viberFooter.44da46eac9b5cc6aa060c085d4c2b59c.svg",
+    "static/media/telegramFooter.svg": "/military-course/static/media/telegramFooter.9688925682e2cd48daff0288da76c862.svg",
     "static/media/logo.svg": "/military-course/static/media/logo.3bea763b33e0d8482dd9e0434a70c3a5.svg",
     "static/media/facebook.svg": "/military-course/static/media/facebook.6a395e679a316759e1a9c1683bc191e6.svg",
     "index.html": "/military-course/index.html",
+    "static/media/facebookFooter.svg": "/military-course/static/media/facebookFooter.4eecf1ecacfa60b6ea953e88065799d0.svg",
     "static/media/bottomQuote.svg": "/military-course/static/media/bottomQuote.1e86b9501fb204e911feef45f9abac3b.svg",
     "static/media/topQuote.svg": "/military-course/static/media/topQuote.08d139b0a13d5916628e3985bd315188.svg",
     "static/media/checkpoint.svg": "/military-course/static/media/checkpoint.c02a74c5aaa5ff0c694e3b5d8c2785b6.svg",
     "static/media/cross.svg": "/military-course/static/media/cross.31c7ac29272fa51c2ec401590ab07bbf.svg",
-    "main.4dd2602a.css.map": "/military-course/static/css/main.4dd2602a.css.map",
-    "main.a3121bd9.js.map": "/military-course/static/js/main.a3121bd9.js.map"
+    "main.15574ad9.css.map": "/military-course/static/css/main.15574ad9.css.map",
+    "main.8288b02d.js.map": "/military-course/static/js/main.8288b02d.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dd2602a.css",
-    "static/js/main.a3121bd9.js"
+    "static/css/main.15574ad9.css",
+    "static/js/main.8288b02d.js"
   ]
 }
