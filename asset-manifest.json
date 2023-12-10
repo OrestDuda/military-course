@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/military-course/static/css/main.e3dae40a.css",
+    "main.css": "/military-course/static/css/main.6cb7cb4d.css",
     "main.js": "/military-course/static/js/main.f0d390f5.js",
     "static/media/certificate2_original.png": "/military-course/static/media/certificate2_original.b73f64688e8de0ca1a3b.png",
     "static/media/certificate1_original.png": "/military-course/static/media/certificate1_original.844e169f2c0ba4ee9aff.png",
@@ -11,7 +11,7 @@
     "static/media/certificates_bg.png": "/military-course/static/media/certificates_bg.f621dd9f49c00e996fef.png",
     "static/media/soldiers.png": "/military-course/static/media/soldiers.141414ad5bd91985d8f4.png",
     "static/media/MoreAboutCourse.png": "/military-course/static/media/MoreAboutCourse.14ab98f76160eb389698.png",
-    "static/media/author.png": "/military-course/static/media/author.29368e59a5cb05b9a82f.png",
+    "static/media/author.jpeg": "/military-course/static/media/author.14d8a52ceddd46ae4a0d.jpeg",
     "static/media/forMilitary.svg": "/military-course/static/media/forMilitary.a087b1d04a84e11a34375b7111bcb9c6.svg",
     "static/media/forStudents.svg": "/military-course/static/media/forStudents.c8e7e85a2ee8be63e677d1615c253e1f.svg",
     "static/media/forFamily.svg": "/military-course/static/media/forFamily.a23ebe416780e6b32fc6f298640c28b7.svg",
@@ -19,11 +19,11 @@
     "static/media/logo.svg": "/military-course/static/media/logo.3bea763b33e0d8482dd9e0434a70c3a5.svg",
     "index.html": "/military-course/index.html",
     "static/media/checkpoint.svg": "/military-course/static/media/checkpoint.c02a74c5aaa5ff0c694e3b5d8c2785b6.svg",
-    "main.e3dae40a.css.map": "/military-course/static/css/main.e3dae40a.css.map",
+    "main.6cb7cb4d.css.map": "/military-course/static/css/main.6cb7cb4d.css.map",
     "main.f0d390f5.js.map": "/military-course/static/js/main.f0d390f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3dae40a.css",
+    "static/css/main.6cb7cb4d.css",
     "static/js/main.f0d390f5.js"
   ]
 }
