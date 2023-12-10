@@ -1,55 +1,64 @@
+$primary-color: #b44f2e;
+$background-color: #fff;
+$text-color: #2b2b37;
+$highlight-color: #e25a3c;
+
 .container {
-  padding: 120px 150px 70px 150px;
-  background: #fff;
-  color: #2b2b37;
+  padding: 120px 150px 70px;
+  background: $background-color;
+  color: $text-color;
+
   .title {
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 140%;
-    border-left: 4px solid #b44f2e;
+    font-weight: bold;
+    line-height: 1.4;
+    border-left: 4px solid $primary-color;
     padding-left: 24px;
     text-align: left;
     height: 92px;
     margin-bottom: 50px;
+
     .topText {
       margin-bottom: 10px;
     }
+
     .bottomText {
-      color: #e25a3c;
+      color: $highlight-color;
       font-size: 21px;
-      font-style: normal;
-      font-weight: 700;
+      font-weight: bold;
     }
   }
+
   .list {
     .listItem {
       margin-bottom: 55px;
       display: flex;
       align-items: center;
+
       .itemBox {
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid #b44f2e;
-        background-color: #b44f2e;
+        border: 1px solid $primary-color;
+        background-color: $primary-color;
         height: 62px;
         width: 48px;
         margin-right: 20px;
         box-sizing: border-box;
-        color: #fff;
+        color: $background-color;
       }
+
       .textContainer {
         width: 748px;
         display: flex;
         flex-direction: column;
         text-align: left;
         font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 140%;
+        font-weight: normal;
+        line-height: 1.4;
+
         .itemTitle {
-          font-weight: 700;
+          font-weight: bold;
           margin-bottom: 4px;
           line-height: 27px;
         }

@@ -6,6 +6,14 @@ import { SuitableFor } from "./components/SuitableFor/SuitableFor";
 import { CourseDescription } from "./components/CourseDescription/CourseDescription";
 import { MoreAboutCourse } from "./components/MoreAboutCourse/MoreAboutCourse";
 import { CourseProgram } from "./components/CourseProgram/CourseProgram";
+import { ResultsAfterCourse } from "./components/ResultsAfterCourse/ResultsAfterCourse";
+import { AboutAuthor } from "./components/AboutAuthor/AboutAuthor";
+import { Certificates } from "./components/Certificates/Certificates";
+import { FaceBookPost } from "./components/FaceBookPost/FaceBookPost";
+import { FAQHeader } from "./components/FAQHeader/FAQHeader";
+import { FAQ } from "./components/FAQ/FAQ";
+import { CountdownFooter } from "./components/CountdownFooter/CountdownFooter";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +24,14 @@ function App() {
       <CourseDescription />
       <MoreAboutCourse />
       <CourseProgram />
+      <ResultsAfterCourse />
+      <AboutAuthor />
+      <Certificates />
+      <FaceBookPost />
+      <FAQHeader />
+      <FAQ />
+      <CountdownFooter />
+      <Footer />
       <Timer />
     </div>
   );

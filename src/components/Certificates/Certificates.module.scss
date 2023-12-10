@@ -1,0 +1,26 @@
+.container {
+  padding: 120px 150px;
+  background: url("../../images/certificates_bg.png");
+  background-size: cover;
+  color: #fff;
+  .title {
+    border-left: 4px solid #b44f2e;
+    text-align: left;
+    padding-left: 34px;
+    height: 92px;
+    margin-bottom: 70px;
+    .leadingText {
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 50.4px */
+    }
+  }
+  .certificates {
+    display: flex;
+    justify-content: space-between;
+    .image {
+      width: 360px;
+    }
+  }
+}

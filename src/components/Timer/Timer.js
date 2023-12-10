@@ -1,4 +1,5 @@
 import styles from "./Timer.module.scss";
+import { CountdownTimer } from "../CountdownTimer/CountdownTimer";
 
 export const Timer = () => {
   return (
@@ -14,7 +15,7 @@ export const Timer = () => {
             <span className={styles.oldPrice}>1500 грн.</span>
           </span>
         </p>
-        <p className={styles.timer}>00 : 07 : 12 : 34</p>
+        <p className={styles.timer}>{<CountdownTimer />}</p>
       </div>
     </div>
   );

@@ -2,7 +2,8 @@
   display: flex;
 }
 .leftSide {
-  width: 100%;
+  flex-basis: 50%;
+  box-sizing: border-box;
   background-color: #111;
   padding: 40px 40px 0 150px;
 
@@ -50,7 +51,8 @@
   }
 }
 .rightSide {
-  width: 100%;
+  flex-basis: 50%;
+  box-sizing: border-box;
   background-image: url("../../images/soldier.png");
   background-size: cover;
 }

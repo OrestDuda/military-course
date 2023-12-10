@@ -1,0 +1,29 @@
+.container {
+  padding: 45px 164px 124px 164px;
+  color: #111;
+  text-align: left;
+
+  .list {
+    .listItem {
+      padding: 30px 12px;
+      border-bottom: 1px solid #111;
+      .questionWrapper {
+        display: flex;
+        justify-content: space-between;
+        p {
+          font-size: 26px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+        }
+        img {
+          cursor: pointer;
+        }
+      }
+    }
+    .answer {
+      display: block;
+      margin-top: 12px;
+    }
+  }
+}

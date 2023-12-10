@@ -1,4 +1,6 @@
 import styles from "./AboutCourse.module.scss";
+import CourseForm from "../CourseForm/CourseForm";
+
 export const AboutCourse = () => {
   return (
     <div className={styles.container}>
@@ -15,46 +17,7 @@ export const AboutCourse = () => {
         </p>
       </div>
       <div className={styles.rightSide}>
-        <div className={styles.formDescription}>
-          <p className={styles.joinCourse}>Приєднайся до онлайн курсу</p>
-          <p className={styles.courseName}>«Інтенсив з військового права»</p>
-          <p className={styles.promotion}>
-            за спеціальною акційною пропозицією всього за
-          </p>
-          <div className={styles.priceContainer}>
-            <span className={styles.newPrice}>375 грн. </span>
-            <span className={styles.oldPrice}>1500 грн.</span>
-          </div>
-          <p className={styles.timer}>00 : 07 : 12 : 34</p>
-        </div>
-        <div>
-          <form className={styles.formInputs}>
-            <input
-              className={styles.input}
-              type={"text"}
-              placeholder={"text"}
-            />
-            <input
-              className={styles.input}
-              type={"text"}
-              placeholder={"text"}
-            />
-            <input
-              className={styles.input}
-              type={"text"}
-              placeholder={"text"}
-            />
-            <input
-              className={styles.input}
-              type={"text"}
-              placeholder={"text"}
-            />
-            <input type={"text"} className={styles.textArea} />
-            <button className={styles.button} type={"submit"}>
-              Зареєструватися
-            </button>
-          </form>
-        </div>
+        <CourseForm />
       </div>
     </div>
   );

@@ -1,0 +1,54 @@
+.container {
+  padding: 120px 150px;
+  display: flex;
+  justify-content: center;
+
+  .leftSide {
+    width: 465px;
+    background-image: url("../../images/facebook.png");
+    background-size: cover;
+  }
+
+  .rightSide {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+
+    .topQuote {
+      margin-bottom: 30px;
+    }
+
+    .descriptionWrapper {
+      padding-left: 77px;
+
+      .text {
+        width: 516px;
+        text-align: left;
+        color: #000;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        margin-bottom: 27px;
+      }
+
+      .button {
+        height: 44px;
+        display: inline-flex;
+        align-items: center;
+        background-color: #176bfb;
+        color: #fff;
+        padding: 0 20px;
+
+        img {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .bottomQuote {
+      text-align: right;
+    }
+  }
+}

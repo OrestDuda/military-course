@@ -1,0 +1,44 @@
+.container {
+  background: {
+    image: url("../../images/femida.png");
+    size: cover;
+  }
+  padding: 176px 150px 128px;
+  display: flex;
+
+  .title {
+    color: #2b2b37;
+    font: {
+      size: 36px;
+      weight: bold;
+    }
+    line-height: 1.4;
+    border-left: 4px solid #b44f2e;
+    padding-left: 24px;
+    text-align: left;
+    height: 92px;
+    margin-bottom: 50px;
+  }
+
+  .blackbox {
+    background: #000;
+    padding: 60px 40px 35px;
+
+    .listItem {
+      display: flex;
+      margin-bottom: 25px;
+
+      .checkpoint {
+        margin-right: 15px;
+      }
+
+      .text {
+        text-align: left;
+        .orange {
+          color: #e25a3c;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
