@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/military-course/static/css/main.ddbb3a63.css",
-    "main.js": "/military-course/static/js/main.596e268e.js",
+    "main.css": "/military-course/static/css/main.9dc4ac17.css",
+    "main.js": "/military-course/static/js/main.87d19aa7.js",
     "static/media/certificate2_original.png": "/military-course/static/media/certificate2_original.b73f64688e8de0ca1a3b.png",
     "static/media/certificate1_original.png": "/military-course/static/media/certificate1_original.844e169f2c0ba4ee9aff.png",
     "static/media/facebook.png": "/military-course/static/media/facebook.9655c3a12a29c85f0c24.png",
@@ -9,8 +9,8 @@
     "static/media/hummer.png": "/military-course/static/media/hummer.65c93b485e4b8cac4678.png",
     "static/media/soldier.png": "/military-course/static/media/soldier.0eb0f5ddba080203beb7.png",
     "static/media/femida.png": "/military-course/static/media/femida.0b778136386d278c22ad.png",
-    "static/media/uniform.png": "/military-course/static/media/uniform.0aba697cfff5e2ac479f.png",
     "static/media/certificates_bg.png": "/military-course/static/media/certificates_bg.f621dd9f49c00e996fef.png",
+    "static/media/books.jpeg": "/military-course/static/media/books.3a068ca9082092951019.jpeg",
     "static/media/soldiers.png": "/military-course/static/media/soldiers.141414ad5bd91985d8f4.png",
     "static/media/MoreAboutCourse.png": "/military-course/static/media/MoreAboutCourse.14ab98f76160eb389698.png",
     "static/media/author.jpeg": "/military-course/static/media/author.14d8a52ceddd46ae4a0d.jpeg",
@@ -29,11 +29,11 @@
     "static/media/checkpoint.svg": "/military-course/static/media/checkpoint.c02a74c5aaa5ff0c694e3b5d8c2785b6.svg",
     "static/media/cross.svg": "/military-course/static/media/cross.31c7ac29272fa51c2ec401590ab07bbf.svg",
     "static/media/minus.svg": "/military-course/static/media/minus.f666bf8c40d6d45baf077579456a7a6e.svg",
-    "main.ddbb3a63.css.map": "/military-course/static/css/main.ddbb3a63.css.map",
-    "main.596e268e.js.map": "/military-course/static/js/main.596e268e.js.map"
+    "main.9dc4ac17.css.map": "/military-course/static/css/main.9dc4ac17.css.map",
+    "main.87d19aa7.js.map": "/military-course/static/js/main.87d19aa7.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddbb3a63.css",
-    "static/js/main.596e268e.js"
+    "static/css/main.9dc4ac17.css",
+    "static/js/main.87d19aa7.js"
   ]
 }
