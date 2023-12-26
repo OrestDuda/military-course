@@ -16,14 +16,68 @@
           font-weight: 400;
           line-height: 130%;
         }
-        img {
+        .icon {
+          padding: 10px;
+          transition: transform 0.3s ease;
           cursor: pointer;
+        }
+        .iconRotate {
+          transform: rotate(180deg);
         }
       }
     }
     .answer {
       display: block;
-      margin-top: 12px;
+      padding-top: 20px;
+    }
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1439px) {
+  .container {
+    padding: 80px;
+  }
+}
+@media (min-width: 480px) and (max-width: 719px) {
+  .container {
+    padding: 50px;
+    .list {
+      .listItem {
+        .questionWrapper {
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .container {
+    padding: 30px;
+    .list {
+      .listItem {
+        .questionWrapper {
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 319px) {
+  .container {
+    padding: 15px;
+    .list {
+      .listItem {
+        .questionWrapper {
+          p {
+            font-size: 20px;
+          }
+        }
+      }
     }
   }
 }

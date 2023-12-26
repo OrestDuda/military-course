@@ -2,13 +2,6 @@ import React from "react";
 import styles from "./CourseForm.module.scss";
 import { CountdownTimer } from "../CountdownTimer/CountdownTimer";
 
-const Input = ({ type, placeholder }) => (
-  <input
-    className={styles.input}
-    type={type || "text"}
-    placeholder={placeholder}
-  />
-);
 const CourseForm = () => {
   return (
     <div className={styles.courseForm}>
@@ -23,18 +16,7 @@ const CourseForm = () => {
           <span className={styles.oldPrice}>1500 грн.</span>
         </div>
         <p className={styles.timer}>{<CountdownTimer />}</p>
-      </div>
-      <div>
-        <form className={styles.formInputs}>
-          <Input placeholder={"text"} />
-          <Input placeholder={"text"} />
-          <Input placeholder={"text"} />
-          <Input placeholder={"text"} />
-          <input type={"text"} className={styles.textArea} />
-          <button className={styles.button} type={"submit"}>
-            Зареєструватися
-          </button>
-        </form>
+        <div className={styles.button}> Купити курс</div>
       </div>
     </div>
   );

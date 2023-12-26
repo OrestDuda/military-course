@@ -4,12 +4,14 @@
   justify-content: center;
 
   .leftSide {
-    width: 465px;
+    width: 100%;
     background-image: url("../../images/facebook.png");
     background-size: cover;
+    background-position: center center;
   }
 
   .rightSide {
+    flex-basis: 70%;
     text-align: left;
     padding-left: 20px;
     padding-top: 85px;
@@ -23,7 +25,7 @@
       padding-left: 77px;
 
       .text {
-        width: 516px;
+        width: 100%;
         text-align: left;
         color: #000;
         font-size: 16px;
@@ -34,13 +36,13 @@
       }
 
       .button {
+        cursor: pointer;
         height: 44px;
         display: inline-flex;
         align-items: center;
         background-color: #176bfb;
         color: #fff;
         padding: 0 20px;
-
         img {
           margin-right: 10px;
         }
@@ -49,6 +51,84 @@
 
     .bottomQuote {
       text-align: right;
+    }
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1439px) {
+  .container {
+    padding: 80px;
+    .leftSide {
+      height: 465px;
+      background-image: url("../../images/facebook.png");
+      background-size: cover;
+      background-position: center center;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .rightSide {
+      padding: 0;
+      .descriptionWrapper {
+        padding-left: 20px;
+      }
+    }
+  }
+}
+@media (min-width: 480px) and (max-width: 719px) {
+  .container {
+    padding: 50px;
+    flex-direction: column;
+    .leftSide {
+      height: 400px;
+      background-image: url("../../images/facebook.png");
+      background-size: cover;
+      background-position: center center;
+      margin: auto;
+    }
+    .rightSide {
+      padding: 0;
+      .descriptionWrapper {
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .container {
+    padding: 30px;
+    flex-direction: column;
+    .leftSide {
+      height: 400px;
+      background-image: url("../../images/facebook.png");
+      background-size: cover;
+      background-position: center center;
+      margin: auto;
+    }
+    .rightSide {
+      padding: 0;
+      .descriptionWrapper {
+        padding-left: 0;
+      }
+    }
+  }
+}
+@media (max-width: 319px) {
+  .container {
+    padding: 15px;
+    flex-direction: column;
+    .leftSide {
+      height: 300px;
+      background-image: url("../../images/facebook.png");
+      background-size: cover;
+      background-position: center center;
+      margin: auto;
+    }
+    .rightSide {
+      padding: 0;
+      .descriptionWrapper {
+        padding-left: 0;
+      }
     }
   }
 }

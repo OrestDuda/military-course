@@ -21,7 +21,15 @@ export const FaceBookPost = () => {
             надію, що нам вдасться знайти наших близьких людей. Дякую пану
             Андрію Andriy Melnyk, що разом робимо велику справу.
           </p>
-          <div className={styles.button}>
+          <div
+            className={styles.button}
+            onClick={() => {
+              window.open(
+                "https://www.facebook.com/advokat.melnyk.andriy?locale=uk_UA",
+                "_blank"
+              );
+            }}
+          >
             <img src={facebookLogo} alt="facebookLogo" />
             <span>Facebook</span>
           </div>

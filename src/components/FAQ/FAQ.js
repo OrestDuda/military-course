@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./FAQ.module.scss";
 import cross from "../../images/cross.svg";
+import minus from "../../images/minus.svg";
 
 export const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -47,8 +48,11 @@ export const FAQ = () => {
               <p>{item.question}</p>
               <img
                 onClick={() => handleToggle(index)}
-                src={cross}
-                alt="Cross Icon"
+                src={openIndex === index ? minus : cross}
+                alt={openIndex === index ? "Minus Icon" : "Cross Icon"}
+                className={`${styles.icon} ${
+                  openIndex === index ? styles.iconRotate : ""
+                }`}
               />
             </div>
             {openIndex === index && (

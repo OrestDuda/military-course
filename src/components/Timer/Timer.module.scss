@@ -1,5 +1,5 @@
 .container {
-  font-family: Titillium Web, serif;
+  font-family: Titillium Web, system-ui;
   background: #b44f2e;
   backdrop-filter: blur(2px);
   position: sticky;
@@ -11,12 +11,12 @@
     .description {
       display: flex;
       .text {
-        width: 560px;
+        width: 75%;
         text-align: left;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
-        line-height: 130%; /* 26px */
+        line-height: 130%;
         margin-right: 8px;
       }
     }
@@ -41,10 +41,54 @@
       }
     }
     .timer {
+      min-width: 350px;
       font-size: 48px;
       font-style: normal;
       font-weight: 700;
       line-height: 130%; /* 62.4px */
     }
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1439px) {
+  .container {
+    padding: 20px;
+  }
+}
+@media (min-width: 480px) and (max-width: 719px) {
+  .container {
+    padding: 10px;
+    .content {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .container {
+    padding: 5px;
+    .content {
+      flex-direction: column;
+      .text {
+        font-size: 16px;
+      }
+      .priceContainer {
+        .newPrice {
+          font-size: 24px;
+        }
+        .oldPrice {
+          font-size: 20px;
+        }
+      }
+      .timer {
+        min-width: 280px;
+        font-size: 24px;
+      }
+    }
+  }
+}
+@media (max-width: 319px) {
+  .container {
+    padding: 15px;
   }
 }

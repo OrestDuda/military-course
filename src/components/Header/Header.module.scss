@@ -6,12 +6,11 @@
   box-sizing: border-box;
   background-color: #111;
   padding: 40px 40px 0 150px;
-
   .title {
     width: 160px;
     display: flex;
     margin-bottom: 180px;
-    font-family: Titillium Web, serif;
+    font-family: Titillium Web, system-ui;
 
     .logo {
       margin-right: 24px;
@@ -39,7 +38,7 @@
       }
     }
     .subText {
-      font-family: Titillium Web, serif;
+      font-family: Titillium Web, system-ui;
       text-align: left;
       width: 508px;
       font-size: 18px;
@@ -51,8 +50,122 @@
   }
 }
 .rightSide {
+  background-image: url("../../images/soldier.png");
   flex-basis: 50%;
   box-sizing: border-box;
-  background-image: url("../../images/soldier.png");
   background-size: cover;
+  border: none;
+}
+
+@media (min-width: 720px) and (max-width: 1439px) {
+  .container {
+  }
+  .leftSide {
+    flex-basis: 50%;
+    padding: 30px 30px 0 70px;
+    .title {
+      margin-bottom: 50px;
+      .author {
+        font-size: 12px;
+      }
+    }
+    .mainContent {
+      .mainText {
+        font-size: 40px;
+        line-height: 65px;
+      }
+      .subText {
+        width: 70%;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 200px;
+      }
+    }
+  }
+  .rightSide {
+    flex-basis: 50%;
+    background-image: url("../../images/soldier.png");
+    background-size: cover;
+  }
+}
+
+@media (max-width: 719px) {
+  .container {
+    flex-direction: column;
+  }
+  .leftSide {
+    padding: 20px 20px 0 20px;
+
+    .title {
+      margin-bottom: 100px;
+
+      .author {
+        font-size: 11px;
+      }
+    }
+    .mainContent {
+      .mainText {
+        font-size: 48px;
+        line-height: 50px;
+      }
+      .subText {
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+        margin-bottom: 150px;
+      }
+    }
+  }
+  .rightSide {
+    display: none;
+  }
+}
+
+@media (max-width: 479px) {
+  .leftSide {
+    padding: 15px 15px 0 15px;
+
+    .title {
+      margin-bottom: 80px;
+
+      .author {
+        font-size: 10px;
+      }
+    }
+    .mainContent {
+      .mainText {
+        font-size: 36px;
+        line-height: 40px;
+      }
+      .subText {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 120px;
+      }
+    }
+  }
+}
+@media (max-width: 319px) {
+  .leftSide {
+    padding: 10px 10px 0 10px;
+
+    .title {
+      margin-bottom: 60px;
+
+      .author {
+        font-size: 9px;
+      }
+    }
+    .mainContent {
+      .mainText {
+        font-size: 28px;
+        line-height: 32px;
+      }
+      .subText {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 100px;
+      }
+    }
+  }
 }

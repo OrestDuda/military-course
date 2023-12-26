@@ -66,3 +66,41 @@ $highlight-color: #e25a3c;
     }
   }
 }
+
+@media (min-width: 720px) and (max-width: 1439px) {
+  .container {
+    padding: 80px;
+    .title {
+      font-size: 28px;
+      height: 72px;
+    }
+  }
+}
+@media (min-width: 480px) and (max-width: 719px) {
+  .container {
+    padding: 50px;
+    .title {
+      font-size: 24px;
+      height: 68px;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .container {
+    padding: 30px;
+    .title {
+      font-size: 20px;
+      height: 60px;
+    }
+  }
+}
+@media (max-width: 319px) {
+  .container {
+    padding: 15px;
+    .title {
+      font-size: 18px;
+      height: 60px;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.container {
+  padding: 40px 150px 250px 150px;
+  color: #000;
+  font-family: Titillium Web system-ui;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  .logo_title {
+    width: 160px;
+    display: flex;
+    margin-bottom: 70px;
+    .logo {
+      margin-right: 24px;
+    }
+    .author {
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      width: 140px;
+    }
+  }
+  .breadscrumbs {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+    a {
+      color: #b9b9b9;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration: none;
+    }
+  }
+  .title {
+    color: #111;
+    font-family: Oswald system-ui;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 83.6px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .text {
+    p {
+      margin-bottom: 37px;
+    }
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1439px) {
+  .container {
+    padding: 20px 70px 125px 70px;
+    .title {
+      font-size: 28px;
+    }
+  }
+}
+@media (min-width: 480px) and (max-width: 719px) {
+  .container {
+    padding: 20px 20px 100px 20px;
+    .title {
+      font-size: 24px;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .container {
+    padding: 10px;
+    .title {
+      font-size: 16px;
+    }
+  }
+}

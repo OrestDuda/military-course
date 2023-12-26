@@ -3,28 +3,49 @@
   justify-content: space-between;
   box-sizing: border-box;
   .leftSide {
+    box-sizing: border-box;
     background: #232323;
     flex-basis: 50%;
-    padding: 32px;
+    padding-left: 150px;
   }
   .rightSide {
     flex-basis: 50%;
-    background: url("../../images/uniform.png");
-    .descriptionWrapper {
-      text-align: left;
-      padding: 163px 150px 140px 150px;
-      .title {
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 140%;
-        margin-bottom: 15px;
-      }
-      .text {
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 140%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url("../../images/books.jpeg");
+    background-size: cover;
+    background-position: center center;
+  }
+}
+@media (min-width: 720px) and (max-width: 1439px) {
+  .container {
+    .leftSide {
+      padding: 20px;
+    }
+  }
+}
+@media (min-width: 480px) and (max-width: 719px) {
+  .container {
+    flex-direction: column;
+    .leftSide {
+      padding: 30px;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .container {
+    flex-direction: column;
+    .leftSide {
+      padding: 30px 15px;
+    }
+  }
+}
+@media (max-width: 319px) {
+  .container {
+    flex-direction: column;
+    .rightSide {
+      .descriptionWrapper {
+        padding: 15px;
       }
     }
   }
